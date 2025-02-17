@@ -17,7 +17,7 @@
     margin-right: 10px; /* Adds some space between the dropdowns */
 }
 
-.drop-knap, .drop-knap2, .drop-knap3 {
+.drop-btn, .drop-btn2, .drop-btn3 {
     background-color: green;
     color: white;
     padding: 16px;
