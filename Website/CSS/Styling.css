@@ -38,6 +38,38 @@
     background-color: #ddd;
 }
 
+.footerMainDiv{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+}
+
+.column{
+    text-align: left;
+    flex: 1;
+    padding: 10%
+}
+
+.column img{
+    max-height: 100%;
+    max-width: 400%;
+}
+
+.columnlast-column{
+    padding: 10%;
+    flex: 6;
+    text-align: left;
+}
+
+.columnlast-column h2{
+    font-size: 15px;
+}
+
+.columnlast-column h1{
+    font-size: 20px;
+}
+
 .dropdown:hover .dropdown-content {
     display: block;
 }
