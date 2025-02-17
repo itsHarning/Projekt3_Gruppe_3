@@ -97,7 +97,7 @@
     padding-bottom: 10%;
 }
 
-.columnlast-column{
+.last-column{
     background-color: green;
     color: white;
     padding-left: 10%;
@@ -106,11 +106,11 @@
     display: block;
 }
 
-.columnlast-column h2{
+.last-column h2{
     font-size: 15px;
 }
 
-.columnlast-column h1{
+.last-column h1{
     font-size: 20px;
 }
 
