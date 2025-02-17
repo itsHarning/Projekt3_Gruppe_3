@@ -67,18 +67,24 @@
 }
 
 .column{
+    background-color: green;
     text-align: left;
     flex: 1;
+    color: white;
+}
+
+.column a{
+    color: white;
 }
 
 .column img{
     width: 100%;
     height: auto;
-    padding-left: 10px
+    padding-left: 10%
 }
 
 #paddingForImage{
-    padding-left: 20%;
+    padding-left: 5%;
 }
 
 #center{
@@ -87,6 +93,8 @@
 }
 
 .columnlast-column{
+    background-color: green;
+    color: white;
     padding-left: 10%;
     flex: 1;
     text-align: left;
