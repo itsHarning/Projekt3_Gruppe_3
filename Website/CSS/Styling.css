@@ -3,3 +3,19 @@ float: left;
 }
 h1{
 }
+
+.footerMainDiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 5px black;
+}
+
+.footerMainDiv p{
+    margin: 0 10px;
+}
+
+.column{
+    flex: 1;
+    padding: 10%
+}
