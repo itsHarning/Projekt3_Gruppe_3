@@ -119,8 +119,8 @@
 
 }
 .strategy{
-    flex: 2;
-    max-width: 70%;
+    flex: 1;
+    padding-right: 20px;
 }
 
 .parent-div{
@@ -133,7 +133,6 @@
 .arla-img{
     flex: 1;
     max-width: 30%;
-    padding: 0 10%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
