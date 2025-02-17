@@ -12,7 +12,7 @@ body{
 }
 
 .navbar img {
-    padding: 5px;
+    padding: 1%;
     height: 64px;
 }
 
@@ -25,11 +25,11 @@ body{
     transition: background-color 0.3s ease; /* Add transition for hover effects */
 }
 
-.dropdown {
+.dropdown, .dropdown2, .dropdown-content3 {
     position: relative;
 }
 
-.drop-btn {
+.drop-btn, .drop-btn2, .drop-btn3 {
     background-color: inherit;
     color: white;
     padding: 29px 16px;
@@ -38,7 +38,7 @@ body{
     transition: background-color 0.3s ease; /* Add transition for hover effects */
 }
 
-.dropdown-content {
+.dropdown-content, .dropdown-content2, .dropdown-content3 {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
@@ -47,22 +47,37 @@ body{
     z-index: 1;
 }
 
-.dropdown-content a {
+.dropdown-content a, .dropdown-content2 a, .dropdown-content3 a {
     color: black;
     padding: 16px;
     text-decoration: none;
     display: block;
 }
 
-.navbar a:hover, .dropdown:hover .drop-btn{
+.dropdown-content2 a{
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar a:hover, .dropdown:hover .drop-btn, .dropdown2:hover .drop-btn2{
     background-color: rgba(0, 0, 0, 0.33);
 }
 
-.dropdown-content a:hover {
+.dropdown-content a:hover, .dropdown-content2 a:hover, .dropdown-content3 a:hover {
     background-color: #ddd;
 }
 
 .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+
+.dropdown3:hover .dropdown-content3 {
     display: block;
 }
 
@@ -71,6 +86,7 @@ body{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    padding: 20px;
 }
 
 .column{
@@ -142,6 +158,18 @@ body{
     justify-content: space-between;
 }
 
+.strategy p{
+    font-size:20px;
+
+}
+.strategy ul{
+    font-size: 18px;
+}
+.strategy{
+    flex: 1;
+    padding-right: 20px;
+}
+
 .arla-img{
     flex: 1;
     max-width: 30%;
@@ -153,6 +181,35 @@ body{
     max-width: 100%;
     height: auto;
     object-fit: cover;
+}
+
+.parent-div2{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.verdensmål{
+    flex: 1;
+    padding-right: 20px;
+}
+
+.verdensmål p{
+    font-size: 20px;
+}
+
+.verdensmål12{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.verdensmål13{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    padding-bottom: 10px;
 }
 
 
