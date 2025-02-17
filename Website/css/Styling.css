@@ -7,7 +7,7 @@
 }
 
 .navbar img {
-    padding: 1%;
+    padding: 5px;
     height: 64px;
 }
 
@@ -20,11 +20,11 @@
     transition: background-color 0.3s ease; /* Add transition for hover effects */
 }
 
-.dropdown, .dropdown2, .dropdown-content3 {
+.dropdown {
     position: relative;
 }
 
-.drop-btn, .drop-btn2, .drop-btn3 {
+.drop-btn {
     background-color: inherit;
     color: white;
     padding: 29px 16px;
@@ -33,7 +33,7 @@
     transition: background-color 0.3s ease; /* Add transition for hover effects */
 }
 
-.dropdown-content, .dropdown-content2, .dropdown-content3 {
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
@@ -42,37 +42,22 @@
     z-index: 1;
 }
 
-.dropdown-content a, .dropdown-content2 a, .dropdown-content3 a {
+.dropdown-content a {
     color: black;
     padding: 16px;
     text-decoration: none;
     display: block;
 }
 
-.dropdown-content2 a{
-    color: black;
-    padding: 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.navbar a:hover, .dropdown:hover .drop-btn, .dropdown2:hover .drop-btn2{
+.navbar a:hover, .dropdown:hover .drop-btn{
     background-color: rgba(0, 0, 0, 0.33);
 }
 
-.dropdown-content a:hover, .dropdown-content2 a:hover, .dropdown-content3 a:hover {
+.dropdown-content a:hover {
     background-color: #ddd;
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown2:hover .dropdown-content2 {
-    display: block;
-}
-
-.dropdown3:hover .dropdown-content3 {
     display: block;
 }
 
