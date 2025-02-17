@@ -140,15 +140,6 @@ body {
     font-size: 18px;
 }
 
-.strategy p{
-    font-size:20px;
-
-}
-.strategy{
-    flex: 1;
-    padding-right: 20px;
-}
-
 .parent-div{
     width: 100%;
     display: flex;
@@ -158,14 +149,16 @@ body {
 
 .strategy p{
     font-size:20px;
-
+    margin-right: 10px;
 }
+
 .strategy ul{
     font-size: 18px;
+
 }
 .strategy{
     flex: 1;
-    padding-right: 20px;
+    margin-left: 40px;
 }
 
 .arla-img{
@@ -186,15 +179,18 @@ body {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+
 }
 
 .verdensmål{
     flex: 1;
-    padding-right: 20px;
+    margin-left: 40px;
+
 }
 
 .verdensmål p{
     font-size: 20px;
+    margin-right: 10px;
 }
 
 .verdensmål12{
@@ -210,5 +206,9 @@ body {
     padding-bottom: 10px;
 }
 
+#shameless-plug{
+    color: black;
+    font-weight: bold;
+}
 
 
