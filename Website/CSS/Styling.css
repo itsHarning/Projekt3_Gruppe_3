@@ -114,6 +114,35 @@
     font-size: 20px;
 }
 
+.strategy p{
+    font-size:20px;
+
+}
+.strategy{
+    flex: 2;
+    max-width: 70%;
+}
+
+.parent-div{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.arla-img{
+    flex: 1;
+    max-width: 30%;
+    padding: 0 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.arla-img img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
 
 
 
