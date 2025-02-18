@@ -1,0 +1,74 @@
+.b2b-section{
+    margin-left: 40px;
+    width: 50%;
+}
+
+.b2b-action {
+    max-width: 600px;
+    margin-left: 40px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-field {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-field input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-field input:focus {
+    border-color: #008CBA;
+    outline: none;
+}
+
+.action-button {
+    background-color: rgb(027, 121, 057);
+    color: white;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.action-button:hover {
+    font-size: 20px;
+    padding: 14px 26px;
+    background-color: rgb(092, 174, 099);
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    max-width: 300px;
+    margin-right: 20px;
+    margin-left: auto;
+    margin-right: 20px;
+    position: absolute;
+    right: 20px;
+
+}
+
+.img-teamwork, .img-puzzle {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
