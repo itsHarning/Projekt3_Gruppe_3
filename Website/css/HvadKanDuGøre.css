@@ -5,3 +5,7 @@
     color: #333;
     letter-spacing: 1px;
 }
+.picture-scale{
+    scale: 140%;
+    margin-left: 10%;
+}

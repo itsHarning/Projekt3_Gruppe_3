@@ -57,3 +57,11 @@
     font-size: 16px;
     margin-top: 5px;
 }
+
+#extra-bottom-padding{
+    padding-bottom: 5%;
+}
+
+#extra-top-padding{
+    padding-top: 3%;
+}
