@@ -1,7 +1,6 @@
 .main-box{
     display: flex;
-    padding: 2%;
-    width: 100%
+    margin-left: 5vh;
 }
 
 .text-box{
@@ -12,7 +11,7 @@
 .image-container{
     flex: 1;
     max-width: 50%;
-    padding: 5%;
+    margin: 2%;
 }
 
 .image-container img {

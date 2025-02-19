@@ -1,8 +1,9 @@
-.parent-div{
+.ourGoal-div{
     width: 100%;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    padding-bottom: 5%;
 }
 
 .strategy p{
@@ -25,6 +26,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-right: 2%;
 }
 .arla-img img{
     max-width: 100%;
@@ -32,35 +34,35 @@
     object-fit: cover;
 }
 
-.parent-div2{
+    /* verdens mål */
+.worldGoals-div{
     width: 100%;
     display: flex;
     align-items: flex-start;
+    margin-right: 2%;
     justify-content: space-between;
-
+    padding-bottom: 2%;
 }
 
-.verdensmål p{
+.worldGoals{
+    flex: 1;
+    margin-left: 40px;
+}
+
+.worldGoals p{
     font-size: 20px;
     margin-right: 10px;
 }
 
-.verdensmål{
-    flex: 1;
-    margin-left: 40px;
-
-}
-.verdensmål12{
+.worldGoals-div img {
     max-width: 100%;
     height: auto;
     object-fit: cover;
+    padding: 0.33vh;
 }
 
-.verdensmål13{
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
-    padding-bottom: 10px;
+.worldGoals-img {
+    margin-right: 2%;
 }
 
 .partners-container {
@@ -72,42 +74,55 @@
 .partner {
     width: 33%;
     text-align: center;
-    transition: all 0.3s;
+    display: flex;
+    position: relative;
+    justify-items: center;
+    transition: all 0.3s ease;
 }
 
 .partner img {
-    width: 100%;
+    width: 15vh;
     height: auto;
+    margin: auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: relative;
     top: 0;
-    transition: all 0.3s;
-}
-
-.partner-name {
-    margin-top: 10px;
-    font-weight: bold;
-    color: #233249;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    transition: all 0.3s ease;
 }
 
 .partner p {
     font-size: 20px;
     text-align: center;
     margin-top: 10px;
+    position: relative;
+    top: 0;
+    transition: all 0.3s ease;
 }
 
 .partner:hover {
     transform: scale(1.125);
 }
 
+.partner:hover p {
+    position: relative;
+    top: 5%;
+}
+
 .partner:hover img{
     position: relative;
-    top: 7.5%;
-    transform: scale(1.10);
+    top: 5%;
+    transform: scale(1.25);
+}
+
+.partner-name {
+    font-weight: bold;
+    color: #233249;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    z-index: 111;
 }
 
     /* cta sektion */
