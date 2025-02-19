@@ -1,0 +1,181 @@
+.donation-container{
+    margin-left: 40px;
+}
+
+.donation-text{
+    width: 50%;
+}
+
+.b2b-action-container{
+    width: 50%;
+    height: auto;
+}
+
+.b2b-action {
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 5%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-field {
+    margin-bottom: 15px;
+    text-align: left;
+
+}
+
+.form-field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-field input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-field input:focus {
+    border-color: #008CBA;
+    outline: none;
+}
+
+.action-button {
+    background-color: rgb(027, 121, 057);
+    color: white;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.action-button:hover {
+    font-size: 20px;
+    padding: 14px 26px;
+    background-color: rgb(092, 174, 099);
+}
+
+.tooltip {
+    font-size: 14px;
+    color: #007BFF;
+    margin-left: 5px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+
+.tooltip:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -5px;
+    padding: 5px;
+    background-color: #333;
+    color: white;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+    z-index: 3;
+    opacity: 0;
+    transition: opacity 0.3s;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.tooltip:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
+.page-break-container{
+    width: 100%;
+    object-fit: fill;
+    padding-top: 5%;
+}
+
+#page-break{
+    width: 100%;
+    object-fit: cover;
+    max-height: 40vh;
+    padding-bottom: 5vh;
+}
+
+.kupon-section  {
+    width: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.kupon-section h1, #paragraf{
+    width: 70%;
+}
+
+.kupon-grid{
+    width: 100%;
+}
+
+.kupon-row1{
+    display: flex;
+    max-width: 100%;
+}
+
+.kupon-row2{
+    padding-top: 5%;
+    display: flex;
+    max-width: 100%;
+}
+
+.kupon-item1{
+    flex: 1;
+    max-width: 100%;
+    align-items: center;
+}
+
+.kupon-item-img{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.kupon-item-img img{
+    width: 15vh;
+    background: white;
+    height: 200px;
+    margin: auto;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+    object-fit: contain;
+}
+
+.kupon-item1:hover {
+    transform: scale(1.125);
+}
+
+.kupon-item1:hover p {
+    position: relative;
+    top: 100%;
+}
+
+.kupon-item1:hover img{
+    position: relative;
+    top: 5%;
+    transform: scale(1.25);
+}
+
+.kupon-item-text{
+    width: 60%;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+

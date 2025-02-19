@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Doneringer</title>
     <link rel="stylesheet" href="css/Styling.css">
+    <link rel="stylesheet" href="css/DonationStyle.css">
     <script
             src="https://code.jquery.com/jquery-3.3.1.js"
             integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
@@ -27,13 +28,137 @@
         </h1>
         <p>
             Ønsker du som privat person at støtte vores sag, så vil vi tage imod det med åbne hænder!
-            Vi har brug for alle der har lyst til at hjælpe. Selv det mindste gør en forskel, og
-
+            Vi har brug for alle der har lyst til at hjælpe. Selv det mindste gør en forskel, og du vil også drage fordele af eklusive rabatter hos nogle af vores partnere.
+            Udfyld blot skemaet herunder, også kontakter vi dig!
         </p>
     </div>
 
+    <div class="b2b-action-container">
+        <div class="b2b-action">
+            <form action="B2bSite.html" method="post" class="cta-form">
+                <div class="form-field">
+                    <label for="name">Navn:</label>
+                    <input type="text" id="name" name="name" required >
+                </div>
+
+                <div class="form-field">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"required >
+                </div>
+
+                <div class="form-field">
+                    <label for="cvr">Anslået beløb du ønsker at donere <span class="tooltip" data-tooltip="Vi spørger om dette, for at skræddersy et tilbud til dig!">?</span></label>
+                    <input type="cvr" id="cvr" name="cvr"required >
+                </div>
+
+                <button type="submit" class="action-button">Send besked</button>
+
+            </form>
+        </div>
+    </div>
+
+</div>
+<div class="page-break-container">
+    <img src="img/baggrund.avif" id="page-break">
 </div>
 
+
+    <div class="kupon-section">
+        <div class="kupon-text">
+            <h1>
+                Kuponer
+            </h1>
+            <p id="paragraf">
+                Her er nogle af de kuponer som vores private samarbejdspartner gør brug af til daglig!
+                Kuponerne er altid aktive, men for at aktiverne dem, så kræver det at du er nuværende fast månedlig betaler.
+                Der er penge at spare i mange forskellige forretninger og brancher. Her er blot et udkast af vores aktive kuponer
+            </p>
+        </div>
+        <br><br><br>
+
+        <div class="kupon-grid">
+
+            <div class="kupon-row1">
+
+                <div class="kupon-item1">
+
+                    <div class="kupon-item-img">
+                        <img src="img/apple-logo.jpg" alt="Billede1">
+                    </div>
+
+                    <div class="kupon-item-text">
+                        <p>Rabatkupon til alle appleforhandlere på 15%</p>
+                    </div>
+
+                </div>
+
+                <div class="kupon-item1">
+
+                    <div class="kupon-item-img">
+                        <img src="img/camel.jpg" alt="Billede 2">
+                    </div>
+
+                    <div class="kupon-item-text">
+                        <p>Rabatkupon hos Camel, 50% på første karton</p>
+                    </div>
+
+                </div>
+
+                <div class="kupon-item1">
+
+                    <div class="kupon-item-img">
+                        <img src="img/codan.png" alt="Billede 3">
+                    </div>
+
+                    <div class="kupon-item-text">
+                        <p>Rabatkupon hos Codan. 2 forsikringer for éns pris</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="kupon-row2">
+
+                <div class="kupon-item1">
+
+                    <div class="kupon-item-img">
+                        <img src="img/lounge8000.jpg" alt="Billede 4">
+                    </div>
+
+                    <div class="kupon-item-text">
+                        <p>Rabatkupon: Første aften er der 30% på første dans</p>
+                    </div>
+
+                </div>
+
+                <div class="kupon-item1">
+
+                    <div class="kupon-item-img">
+                        <img src="img/lenovo.webp" alt="Billede5">
+                    </div>
+
+                    <div class="kupon-item-text">
+                        <p>Rabatkupon: 200% rabat på første ordre, hos alle lenovoforhandlere </p>
+                    </div>
+
+                </div>
+
+                <div class="kupon-item1">
+
+                    <div class="kupon-item-img">
+                        <img src="img/zyn.webp" alt="Billede 6">
+                    </div>
+
+                    <div class="kupon-item-text">
+                        <p>Rabatkupon: 1 for 3 hos alle danske Circle K´s</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+<br><br>
 
 <div id="footer"></div>
 
