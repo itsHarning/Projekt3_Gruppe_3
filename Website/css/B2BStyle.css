@@ -1,13 +1,25 @@
-.b2b-section{
+.b2b-section h1, p{
     margin-left: 40px;
     width: 50%;
 }
 
+.b2b-img{
+    float: right;
+    margin-right: 10%;
+    margin-top: -10%;
+
+}
+
+.b2b-action-container{
+    width: 50%;
+    height: auto;
+}
+
 .b2b-action {
     max-width: 600px;
-    margin-left: 40px;
+    margin: auto;
     background-color: white;
-    padding: 20px;
+    padding: 5%;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -15,6 +27,7 @@
 .form-field {
     margin-bottom: 15px;
     text-align: left;
+
 }
 
 .form-field label {
@@ -68,6 +81,18 @@
     color: black;
 }
 
+.page-break-container{
+    width: 100%;
+    object-fit: fill;
+    padding-top: 5%;
+}
+
+#page-break{
+    width: 100%;
+    object-fit: cover;
+    max-height: 60vh;
+}
+
 .partners-container2 {
     width: 100%;
 }
@@ -75,21 +100,24 @@
 .partner2-row{
     display: flex;
     max-width: 100%;
-
+    padding-left: 10%;
 }
 
 .partner2-row2{
+    padding-top: 5%;
     display: flex;
-    width: 100%;
+    max-width: 100%;
+    padding-left:10%
 }
 
 .partner2{
     flex: 1;
     max-width: 100%;
+    align-items: center;
 }
 
 .partner2 p{
-    width: max-content;
+    width: 100%;
     font-size: 20px;
     text-align: center;
     margin-top: 10px;
@@ -104,16 +132,21 @@
 }
 
 .partner2-img-container{
-    width: 25%;
-
+    width: 60%;
+    display: flex;
+    justify-content: center;
 }
 
 .partner2-img-container img{
-    width: 100%;
+    width: 45%;
     align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
 }
+
 .partner2-text{
-text-align: center;
+    width: 50%;
+    text-align: center;
 }
 
 .
