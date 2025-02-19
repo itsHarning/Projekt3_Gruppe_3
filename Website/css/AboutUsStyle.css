@@ -1,6 +1,7 @@
 .main-box{
     display: flex;
     margin-left: 5vh;
+    margin-bottom: 2%;
 }
 
 .text-box{
@@ -15,6 +16,11 @@
 }
 
 .image-container img {
+    margin-top: 5%;
     max-width: 100%;
     height: auto;
+}
+
+.mail-getter {
+    margin-top: 5%;
 }
