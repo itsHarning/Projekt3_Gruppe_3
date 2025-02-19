@@ -12,7 +12,7 @@
 .image-container{
     flex: 1;
     max-width: 50%;
-    padding: 10%;
+    padding: 5%;
 }
 
 .image-container img {
@@ -32,7 +32,6 @@
 }
 .statistics img {
     width: 100%;
-    height: 255px; object-fit: cover; object-position: top;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: relative;
