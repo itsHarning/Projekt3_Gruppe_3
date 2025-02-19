@@ -167,18 +167,19 @@
 .form-field {
     margin-bottom: 15px;
     text-align: left;
+    position: relative;
 }
 
 .form-field label {
     display: block;
     font-weight: bold;
+    position: relative;
     margin-bottom: 5px;
     color: #333;
 }
 
 .form-field input{
-    width: 100%;
-    padding: 10px;
+    padding: 1% 66% 1% 0;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
