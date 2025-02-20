@@ -107,7 +107,6 @@ h1, h2 {
 /* footer */
 .footerMainDiv{
     display: flex;
-    justify-content: space-between;
     width: 100%;
     background-color: #5cae63;
 }
@@ -118,6 +117,7 @@ h1, h2 {
     flex: 1;
     color: white;
     padding-top: 1%;
+    max-width: 100%;
 }
 
 .column a{
@@ -131,22 +131,53 @@ h1, h2 {
 
 .column img{
     width: 100%;
-    
     height: auto;
     padding-left: 10%
 }
 
-#padding-for-socials{
-    padding-left: 5%;
+.socials-column{
+    background-color: inherit;
+    flex: 1;
+    max-width: 100%;
+    padding-left: 7%;
 }
 
-#padding-for-volunteer-image{
-    padding-top: 5%;
+.socials-column-row{
+    align-items: center;
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
 }
 
-#center{
+.socials-column-text-box{
+    font-size: 13px;
+    padding-top: 0;
     text-align: center;
-    padding-bottom: 1%;
+}
+
+.image-container-socials{
+    width: 100%;
+    flex: 1;
+    align-items: center;
+}
+
+.image-container-socials img{
+    width: 80%;
+}
+
+.image-container-socials:hover {
+    transform: scale(1.125);
+}
+
+.image-container-socials:hover p {
+    position: relative;
+    top: 5%;
+}
+
+.image-container-socials:hover img{
+    position: relative;
+    top: 5%;
+    transform: scale(1.25);
 }
 
 .last-column{
@@ -165,4 +196,23 @@ h1, h2 {
 .last-column h1{
     font-size: 18px;
 }
+
+#extra-padding-left{
+    padding-left: 5%;
+}
+
+#extra-padding-top{
+    padding-top: 3%;
+}
+
+#padding-for-volunteer-image{
+    padding-top: 5%;
+}
+
+#center{
+    text-align: center;
+    padding-bottom: 1%;
+    padding-left: 5%;
+}
+
 
