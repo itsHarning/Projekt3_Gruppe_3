@@ -162,6 +162,7 @@ h1, h2 {
 
 .image-container-socials img{
     width: 80%;
+    transition: all 0.3s ease;
 }
 
 .image-container-socials:hover {
