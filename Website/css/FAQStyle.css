@@ -1,0 +1,59 @@
+.faq-section{
+    margin-left: 40px;
+    width: 100%;
+}
+
+html {
+    scroll-behavior: smooth; /* Tilføj denne linje for at få glidende scroll */
+}
+
+.faq-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq-sidebar {
+    width: 25%;
+    position: fixed;
+    top: 24%; /* Starten af din FAQ box */
+    border-style: groove;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1%;
+}
+
+.faq-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.faq-sidebar ul li {
+    margin: 10px 0;
+}
+
+.faq-sidebar ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.faq-sidebar li:hover{
+    transform: scale(1.055);
+}
+
+.faq-content {
+    margin-left: 30%;
+    padding: 20px;
+}
+
+.faq-content h3, p{
+    width: 50%;
+}
+
+.faq-content div {
+    margin-bottom: 5vh;
+}
+
+.faq-content h3 {
+    color: #333;
+}

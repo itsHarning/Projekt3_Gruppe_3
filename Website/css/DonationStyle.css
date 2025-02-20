@@ -7,7 +7,7 @@
 }
 
 .b2b-action-container{
-    width: 50%;
+    width: 100%;
     height: auto;
 }
 
@@ -161,6 +161,7 @@
 }
 
 .kupon-item1:hover p {
+    padding-top: 2%;
     position: relative;
     top: 100%;
 }
