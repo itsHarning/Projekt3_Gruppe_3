@@ -24,6 +24,10 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+#b2b-extra-width-and-padding{
+    width: 65%;
+}
+
 .form-field {
     margin-bottom: 15px;
     text-align: left;
@@ -48,6 +52,10 @@
 .form-field input:focus {
     border-color: #008CBA;
     outline: none;
+}
+
+#form-field-less-width{
+    width: 75%;
 }
 
 .action-button {
