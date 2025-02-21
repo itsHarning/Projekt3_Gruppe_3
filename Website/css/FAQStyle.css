@@ -44,11 +44,11 @@ html {
     transform: scale(1.055);
 }
 
-.faq-content-imgbreak{
+.faq-content-imgBreak{
     max-width: 100%;
 }
 
-.faq-content-imgbreak img{
+.faq-content-imgBreak img{
     max-width: 100%;
 }
 
