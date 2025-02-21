@@ -13,13 +13,13 @@
     width: 100%;
 }
 
-.image-container-svedig{
+.image-container{
     flex: 1;
     max-width: 50%;
     margin: 2%;
 }
 
-.image-container-svedig img {
+.image-container img {
     margin-top: 5%;
     max-width: 100%;
     height: auto;
