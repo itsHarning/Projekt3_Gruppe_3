@@ -15,9 +15,12 @@ html {
 .faq-sidebar {
     width: 25%;
     position: sticky;
+    padding-left: 1%;
+    padding-top: 0.1%;
+    padding-bottom: 0.1%;
     top: 35%; /* Starten af din FAQ box */
-    border-style: groove;
     background: white;
+    border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 5%;
 }

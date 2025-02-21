@@ -1,6 +1,9 @@
 .main-box{
-    display: flex;
     margin-left: 5%;
+}
+
+.text-and-image-container{
+    display: flex;
 }
 
 .text-box{
@@ -8,13 +11,27 @@
     max-width: 50%;
 }
 
-.image-container{
+.image-container-breaker{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.image-container-breaker img{
+    width: 100%;
+}
+
+.image-container-svedig{
     flex: 1;
     max-width: 50%;
     padding: 5%;
 }
 
-.image-container img {
+.image-container-svedig img{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-container-svedig img {
     max-width: 100%;
     height: auto;
 }
