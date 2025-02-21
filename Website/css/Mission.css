@@ -33,17 +33,6 @@
     max-width: 100%;
     height: auto;
 }
-.statistics {
-    width: calc(100%);
-    text-align: center;
-}
-.statistics-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    justify-items: center;
-    margin: 50px;
-}
 
 .text-box1{
     margin-left: 5%;
