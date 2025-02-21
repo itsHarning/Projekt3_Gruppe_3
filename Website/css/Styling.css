@@ -122,18 +122,21 @@ h1, h2 {
 
 .column a{
     padding-left: 5%;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 .column p{
     margin: 5%;
     margin-top: 1%;
-    width: 100%;
+    width: 95%;
+    font-size: 18px;
 }
 
 .column img{
     width: 100%;
     height: auto;
-    padding-left: 10%
+    padding-left: 10%;
+    padding-top: 1%;
 }
 
 .socials-column{
@@ -151,12 +154,14 @@ h1, h2 {
 }
 
 .socials-column-text-box{
+    margin: 0;
     padding-top: 0;
     text-align: center;
     padding-right: 5%;
 }
 
 .socials-column-text-box h1{
+    margin-bottom: 0%;
     font-size: 20px;
 }
 
@@ -167,12 +172,11 @@ h1, h2 {
 }
 
 .image-container-socials img{
-    width: 80%;
     transition: all 0.3s ease;
 }
 
 .image-container-socials:hover {
-    transform: scale(1.125);
+    transform: scale(1.075);
 }
 
 .image-container-socials:hover p {
@@ -189,9 +193,9 @@ h1, h2 {
 .last-column{
     background-color: inherit;
     color: white;
-    padding-left: 10%;
+    padding-right: 2.5%;
     flex: 1;
-    text-align: left;
+    text-align: right;
     display: block;
 }
 
@@ -200,19 +204,18 @@ h1, h2 {
 }
 
 .last-column h1{
-    font-size: 18px;
+    font-size: 22px;
+    margin: 0;
+    color: black;
 }
 
 .last-column p{
     margin: 0;
+    font-size: 18px;
 }
 
 #extra-padding-left{
     padding-left: 5%;
-}
-
-#padding-for-volunteer-image{
-    padding-top: 5%;
 }
 
 #center{

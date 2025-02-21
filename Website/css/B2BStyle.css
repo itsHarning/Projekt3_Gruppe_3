@@ -28,6 +28,12 @@
     width: 100%;
 }
 
+#b2b-action-less-padding {
+    margin: 0;
+    padding: 2%;
+    padding-right: 17.5%;
+}
+
 .form-field {
     margin-bottom: 15px;
     text-align: left;
@@ -47,6 +53,10 @@
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
+}
+
+#email-less-width {
+    padding-right: 110%;
 }
 
 .form-field input:focus {
@@ -164,5 +174,3 @@
     width: 50%;
     text-align: center;
 }
-
-.
