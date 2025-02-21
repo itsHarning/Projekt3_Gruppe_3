@@ -81,7 +81,7 @@
 }
 
 .partner {
-    width: 33%;
+    margin: auto;
     text-align: center;
     display: flex;
     position: relative;

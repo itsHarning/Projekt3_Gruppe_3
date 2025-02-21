@@ -47,7 +47,6 @@
     object-fit: cover;
 }
 
-
 .article-text h1{
     font-size: clamp(20px, 2vw, 30px);
     margin-top: 0;
@@ -60,7 +59,7 @@
     color: lightgrey;
     font-size: 13px;
     margin-top: 0;
-    margin-bottom: 5%;
+    margin-bottom: 1.5%;
 }
 
 .article-text p{

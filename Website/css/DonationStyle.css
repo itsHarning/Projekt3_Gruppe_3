@@ -15,28 +15,27 @@
     max-width: 600px;
     margin: auto;
     background-color: white;
+    padding: 5%;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
 }
 
 .form-field {
     margin-bottom: 15px;
     text-align: left;
-    position: relative;
 
 }
 
 .form-field label {
     display: block;
     font-weight: bold;
-    position: relative;
     margin-bottom: 5px;
     color: #333;
 }
 
 .form-field input {
-    padding: 1% 66% 1% 0;
+    width: 100%;
+    padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -138,10 +137,13 @@
     flex: 1;
     max-width: 100%;
     align-items: center;
+    transition: all 0.3s ease;
+    padding: 1%;
 }
 
 .kupon-item-img{
     width: 60%;
+    margin: auto;
     display: flex;
     justify-content: center;
 }
@@ -155,6 +157,7 @@
     border-radius: 8px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
     object-fit: contain;
+    transition: all 0.3s ease;
 }
 
 .kupon-item1:hover {
@@ -177,6 +180,10 @@
     width: 60%;
     text-align: center;
     font-weight: bold;
+}
+
+.kupon-item-text p{
+    transition: all 0.3s ease;
 }
 
 
