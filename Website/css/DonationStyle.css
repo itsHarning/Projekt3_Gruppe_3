@@ -15,7 +15,7 @@
     max-width: 600px;
     margin: auto;
     background-color: white;
-    padding: 5%;
+    padding: 2%;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -23,7 +23,6 @@
 .form-field {
     margin-bottom: 15px;
     text-align: left;
-
 }
 
 .form-field label {
@@ -109,9 +108,8 @@
 }
 
 .kupon-section  {
-    width: 95%;
-    margin-left: 4%;
-    margin-right: 2%;
+    width: 90%;
+    margin: auto;
 }
 
 .kupon-section h1, #paragraf{
@@ -120,23 +118,24 @@
 
 .kupon-grid{
     width: 100%;
+    margin-left: 6.66%;
 }
 
-.kupon-row1{
-    display: flex;
-    max-width: 100%;
-}
-
-.kupon-row2{
+.kupon-row{
     padding-top: 5%;
     display: flex;
     max-width: 100%;
 }
 
-.kupon-item1{
+.kupon-text{
+    padding-bottom: 2.5%;
+}
+
+.kupon-item{
     flex: 1;
-    max-width: 100%;
+    width: 33%;
     align-items: center;
+    transition: all 0.3s ease;
 }
 
 .kupon-item-img{
@@ -148,34 +147,39 @@
 .kupon-item-img img{
     width: 15vh;
     background: white;
-    height: 200px;
+    height: 15vh;
     margin: auto;
     align-items: center;
     border-radius: 8px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
     object-fit: contain;
+    transition: all 0.3s ease;
 }
 
-.kupon-item1:hover {
+.kupon-item:hover {
     transform: scale(1.125);
 }
 
-.kupon-item1:hover p {
+.kupon-item:hover p {
     padding-top: 2%;
     position: relative;
     top: 100%;
 }
 
-.kupon-item1:hover img{
+.kupon-item:hover img{
     position: relative;
     top: 5%;
-    transform: scale(1.25);
+    transform: scale(1.125  );
 }
 
 .kupon-item-text{
     width: 60%;
     text-align: center;
     font-weight: bold;
+}
+
+.kupon-item-text p{
+    transition: all 0.3s ease;
 }
 
 
