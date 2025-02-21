@@ -1,5 +1,5 @@
 .list-text {
-    margin-top: 10px;
+    margin-top: 2%;
     font-weight: lighter;
     font-size: 16px;
     color: #333;
@@ -8,4 +8,5 @@
 .picture-scale{
     scale: 140%;
     margin-left: 10%;
+    margin-right: 10%;
 }
