@@ -108,38 +108,38 @@
     padding-bottom: 5vh;
 }
 
-.kupon-section  {
+.coupon-section  {
     width: 90%;
     margin: auto;
 }
 
-.kupon-section h1, #paragraf{
+.coupon-section h1, #paragraf{
     width: 70%;
 }
 
-.kupon-grid{
+.coupon-grid{
     display: grid;
     grid-template-columns: auto auto auto;
     justify-items: center;
 }
 
-.kupon-text{
+.coupon-text{
     padding-bottom: 2%;
 }
 
-.kupon-item{
+.coupon-item{
     flex: 1;
     align-items: center;
     transition: all 0.3s ease;
     margin-bottom: 5%;
 }
 
-.kupon-item-img{
+.coupon-item-img{
     margin: auto;
     display: flex;
 }
 
-.kupon-item-img img{
+.coupon-item-img img{
     width: 15vh;
     background: white;
     height: 15vh;
@@ -151,29 +151,29 @@
     transition: all 0.3s ease;
 }
 
-.kupon-item:hover {
+.coupon-item:hover {
     transform: scale(1.125);
 }
 
-.kupon-item:hover p {
+.coupon-item:hover p {
     padding-top: 2%;
     position: relative;
     top: 100%;
 }
 
-.kupon-item:hover img{
+.coupon-item:hover img{
     position: relative;
     top: 10%;
     transform: scale(1.125);
 }
 
-.kupon-item-text{
+.coupon-item-text{
     text-align: center;
     font-weight: bold;
     color: #233249;
 }
 
-.kupon-item-text p{
+.coupon-item-text p{
     transition: all 0.3s ease;
     margin: 1%;
 }
