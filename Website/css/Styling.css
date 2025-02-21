@@ -125,7 +125,9 @@ h1, h2 {
 }
 
 .column p{
-    padding-left: 5%;
+    margin: 5%;
+    margin-top: 1%;
+    width: 100%;
 }
 
 .column img{
@@ -149,10 +151,13 @@ h1, h2 {
 }
 
 .socials-column-text-box{
-    font-size: 13px;
     padding-top: 0;
     text-align: center;
     padding-right: 5%;
+}
+
+.socials-column-text-box h1{
+    font-size: 20px;
 }
 
 .image-container-socials{
@@ -191,11 +196,15 @@ h1, h2 {
 }
 
 .last-column h2{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .last-column h1{
     font-size: 18px;
+}
+
+.last-column p{
+    margin: 0;
 }
 
 #extra-padding-left{

@@ -5,8 +5,12 @@
 }
 
 .text-box{
-    flex: 3;
-    max-width: 50%;
+    flex: 1;
+}
+
+.text-box p{
+    margin: 0;
+    width: 100%;
 }
 
 .image-container{
