@@ -41,6 +41,24 @@ html {
     transform: scale(1.055);
 }
 
+.faq-content-img-right{
+    float: right;
+    padding-right: 7%;
+}
+
+.faq-content-img-right2{
+    float: right;
+    padding-right: 7%;
+    padding-top: 7%;
+}
+
+.faq-content-img-right2 img,
+.faq-content-img-right img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
 .faq-content {
     margin-left: 30%;
     padding: 20px;
@@ -56,4 +74,68 @@ html {
 
 .faq-content h3 {
     color: #333;
+}
+
+.faq-action-container{
+    width: 100%;
+    height: auto;
+    padding-bottom: 10%;
+    padding-top: 2%;
+    padding-right: 5%;
+}
+
+.faq-action {
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 4%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-field {
+    margin-bottom: 15px;
+    text-align: left;
+
+}
+
+.form-field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-field input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-field input:focus {
+    border-color: #008CBA;
+    outline: none;
+}
+
+#form-field-less-width{
+    width: 75%;
+}
+
+.action-button {
+    background-color: rgb(027, 121, 057);
+    color: white;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.action-button:hover {
+    font-size: 20px;
+    padding: 14px 26px;
+    background-color: rgb(092, 174, 099);
 }
