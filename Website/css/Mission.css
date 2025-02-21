@@ -15,6 +15,8 @@
     width: 100%;
     margin: 0;
     padding: 0;
+    padding-top: 1%;
+    padding-bottom: 3%;
 }
 
 .image-container-breaker img{
@@ -26,7 +28,6 @@
     max-width: 50%;
     padding: 5%;
 }
-
 
 .image-container-svedig img {
     max-width: 100%;
@@ -43,25 +44,9 @@
     justify-items: center;
     margin: 50px;
 }
-.statistics img {
-    width: 100%;
-    border-radius: 8px;
-    position: relative;
-    top: 0;
-    transition: all 0.3s;
 
-}
-.statistics-text {
-    margin-top: 10px;
-    font-weight: normal;
-    font-size: 16px;
-    color: #333;
-    letter-spacing: 1px;
-}
-.statistics-boldtext{
-    margin-top: 10px;
-    font-weight: bold;
-    font-size: 16px;
-    color: #333;
-    letter-spacing: 1px;
+.text-box1{
+    margin-left: 5%;
+    max-width: 50%;
+    padding-bottom: 1%;
 }
